@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Desenvolvimento Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:100,200,400,600"/>  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee%20Inline%3A100%2C200%2C400%2C600"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"/>
+    <link rel="stylesheet" href="css/visual.css"/>
+
+</head>
+
+<body class="back-page4">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+           
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><i class="fas fa-caret-square-left"></i> Portfólio</a>
+            </div>
+      
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <div class="menu">
+                <li><span class="cor-fonte1">Meus trabalhos</span></li>
+                <div class="menu1">
+                    <ul class="opc">
+                      <li><a href="web.html"><span class="cor-fonte">Web</span></a></li>
+                      <li><a href="games.html"><span class="cor-fonte">Games</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="conteudo-web">
+
+            <div class="div-corpo2-2">
+                  <h1>Desenvolvimento Web</h1>
+            </div>
+            
+            <div class="div-corpo2">
+                  <span class="font-web">Portfólio</span>
+                  <img class="img-visual" src="imagem/projeto-web.png">
+                  <p>
+                    Site de portifólio desenvolvido por mim, utilizando os frameworks Sublime Text e Visual Studio Code; e linguagens para desenvolvimento Web tais como HTML, CSS, Bootstrap e JavaScript.
+                  </p>
+            </div>
+
+            <div class="div-corpo2">
+                  <span class="font-web">Site para vendas de imóveis</span>
+                  <img class="img-visual" src="imagem/projeto-web2.png">
+                  <p>
+                    Em desenvolvimento atualmente, se trata de um site para locação de imóveis. Estão sendo utilizadas as linguagens HTML, CSS, PHP, JavaScript em conjunto com um banco de dados MySQL e o framework Bootstrap.
+                  </p>
+            </div>
+
+            <div class="div-corpo2">
+                  <span class="font-web">Blog</span>
+                  <img class="img-visual" src="imagem/projeto-web3.png">
+                  <p>
+                    Blog desenvolvido com o objetivo de aperfeiçoar as habilidades relacionadas ao HTML e CSS. Foram usados os frameworks Sublime Text(versão 2.0.2) e o Visual Studio Code(versão 1.23).
+                  </p>
+            </div>
+
+        </div>
+      
+        <footer class="main-footer footer-landpage">
+        <div class="pull-left hidden-xs">
+           <div style="text-align: left;">
+            <strong> &nbsp;&nbsp;&nbsp; Fatec Taubaté</strong><br>
+            &nbsp;&nbsp;&nbsp; &copy; Todos os Direitos Reservados
+           </div>
+         </div>
+         <div class="pull-right hidden-xs">
+           <div style="text-align: right;">
+            <strong>Curso de Análise e Desenvolvimento de Sistemas &nbsp;&nbsp;&nbsp;</strong><br>
+            <strong>Desenvolvido por: Vinícius José &nbsp;&nbsp;&nbsp;</strong>
+        </div>
+      
+        </div>
+        </footer>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    <script src="jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+      $('.menu1').hide();
+      $('.menu').hover(function(){
+       $(this).find('.menu1').slideDown(20);
+      },
+      function(){
+        $(this).find('.menu1').slideUp(20);
+      });
+    }); 
+
+    </script>
+    
+</body>
+</html>
+

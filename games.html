@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Desenvolvimento de Games</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:100,200,400,600"/>  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"/>
+    <link rel="stylesheet" href="css/visual.css"/>
+
+</head>
+
+<body class="back-page5">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+           
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><i class="fas fa-caret-square-left"></i> Portfólio</a>
+            </div>
+      
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <div class="menu">
+                <li><span class="cor-fonte1">Meus trabalhos</span></li>
+                <div class="menu1">
+                    <ul class="opc">
+                      <li><a href="web.html"><span class="cor-fonte">Web</span></a></li>
+                      <li><a href="games.html"><span class="cor-fonte">Games</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="conteudo-games">
+
+            <div class="div-corpo1-1">
+                  <h1>Desenvolvimento de jogos</h1>
+            </div>
+            
+            <div class="div-corpo1">
+                  <span class="font-games">Projeto - 1</span>
+                  <img class="img-visual" src="imagem/projeto1.png">
+                  <p>
+                    Game 2D de gênero aventura desenvolvido por mim, esse projeto foi desenvolvido utilizando a linguagem de programação C#(C Sharp) e o framework Unity(versão 2017.4), específico para desenvolvimento de jogos.
+                  </p>
+            </div>
+
+            <div class="div-corpo1">
+                  <span class="font-games">Projeto - 2</span>
+                  <img class="img-visual" src="imagem/projeto2.png">
+                  <p>
+                    Projeto em que estou trabalhando atualmente, junto a uma equipe pequena de 5 pessoas. Se trata de um jogo em 2D que está sendo desenvolvido no Unity(versão 2018.4.2) com a linguagem de programação C Sharp.
+                  </p>
+            </div>
+
+        </div>
+      
+        <footer class="main-footer footer-landpage">
+        <div class="pull-left hidden-xs">
+           <div style="text-align: left;">
+            <strong> &nbsp;&nbsp;&nbsp; Fatec Taubaté</strong><br>
+            &nbsp;&nbsp;&nbsp; &copy; Todos os Direitos Reservados
+           </div>
+         </div>
+         <div class="pull-right hidden-xs">
+           <div style="text-align: right;">
+            <strong>Curso de Análise e Desenvolvimento de Sistemas &nbsp;&nbsp;&nbsp;</strong><br>
+            <strong>Desenvolvido por: Vinícius José &nbsp;&nbsp;&nbsp;</strong>
+        </div>
+      
+        </div>
+        </footer>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    <script src="jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+      $('.menu1').hide();
+      $('.menu').hover(function(){
+       $(this).find('.menu1').slideDown(20);
+      },
+      function(){
+        $(this).find('.menu1').slideUp(20);
+      });
+    }); 
+
+    </script>
+    
+</body>
+</html>
+
